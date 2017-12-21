@@ -28,13 +28,14 @@ tilemap = [
             [WATER, WATER, GRASS],
             [COAL,  GRASS, WATER],
             [DIRT,  GRASS, COAL ],
-            [GRASS, WATER, DIRT ]
-          ]
+            [GRASS, WATER, DIRT ],
+            [COAL, WATER, DIRT]
+]
 
 #useful game dimensions
 TILESIZE  = 40
-MAPWIDTH  = 3
-MAPHEIGHT = 5
+MAPWIDTH  = len(tilemap[0])
+MAPHEIGHT = len(tilemap)
 
 #set up the display
 pygame.init()
