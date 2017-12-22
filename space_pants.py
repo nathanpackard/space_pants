@@ -9,14 +9,14 @@ GREEN = (0,   255, 0  )
 BLUE  = (0,   0,   255)
 
 #constants representing the different resources
-MOUTAIN  = 0
+MOUNTAIN  = 0
 GRASS = 1
 WATER = 2
 CAVE  = 3
 
 #a dictionary linking resources to colours
 colours =   {
-                MOUNTAIN  : BROWN,
+                MOUNTAIN: BROWN,
                 GRASS : GREEN,
                 WATER : BLUE,
                 CAVE  : BLACK
