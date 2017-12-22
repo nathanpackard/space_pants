@@ -9,27 +9,27 @@ GREEN = (0,   255, 0  )
 BLUE  = (0,   0,   255)
 
 #constants representing the different resources
-DIRT  = 0
+MOUTAIN  = 0
 GRASS = 1
 WATER = 2
-COAL  = 3
+CAVE  = 3
 
 #a dictionary linking resources to colours
 colours =   {
-                DIRT  : BROWN,
+                MOUNTAIN  : BROWN,
                 GRASS : GREEN,
                 WATER : BLUE,
-                COAL  : BLACK
+                CAVE  : BLACK
             }
 
 #a list representing our tilemap
 tilemap = [
-            [GRASS, COAL,  DIRT ],
+            [GRASS, CAVE,  MOUNTAIN ],
             [WATER, WATER, GRASS],
-            [COAL,  GRASS, WATER],
-            [DIRT,  GRASS, COAL ],
-            [GRASS, WATER, DIRT ],
-            [COAL, WATER, DIRT]
+            [CAVE,  GRASS, WATER],
+            [MOUNTAIN,  GRASS, CAVE ],
+            [GRASS, WATER, MOUNTAIN ],
+            [CAVE, WATER, MOUNTAIN]
 ]
 
 #useful game dimensions
